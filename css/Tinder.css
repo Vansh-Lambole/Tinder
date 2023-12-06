@@ -1,0 +1,715 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom,rgb(0, 0, 0, 0.93),transparent),url(../image/8ad4e4299ef5e377d2ef00ba5c94c44c.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* cursor: url(../image/Tinder\ icon\ 3.png),auto; */
+}
+header{
+    height:722px;
+    width: 1536px;
+    /* background-color: aqua; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* position: fixed; */
+}
+.first{
+    height: 85px;
+    width: 1520px;
+    /* background-color: #3e8e41; */
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.nav1{
+    height: 45px;
+    width: 619px;
+    /* background-color: blue; */
+    margin-left: 27px;
+    display: flex;
+}
+.logo{
+    height: 45px;
+    width: 175px;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+}
+.logo .img1{
+    height: 38px;
+    width: 36px;
+}
+.logo .logoname{
+    color: white;
+    height: 45px;
+    width: 100px;
+    /* background-color: blue; */
+    font-size: 40px;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 7px;
+}
+.btn1{
+    background-color: transparent;
+    border: 5px solid transparent;
+    color: white;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.btn1:hover{
+    color: #dc1021;
+}
+.btn2{
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.btn2:hover{
+    color: #dc1021;
+}
+.btn3{
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: white;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 15px;
+    width: 65px;
+}
+.btn3:hover{
+    color: #dc1021;
+}
+.btn4{
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.btn4:hover{
+    color: #dc1021;
+}
+.btn5{
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: white;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.btn5:hover{
+    color: #dc1021;
+}
+.nav2{
+    height: 35px;
+    width: 310px;
+    display: flex;
+    /* background-color: aqua; */
+    margin-left: 573px;
+}
+.lang-btn{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-radius: 50px;
+    margin-left: 3px;
+}
+.lang-btn:hover{
+    border: 1px solid transparent;
+    background:radial-gradient(rgb(68, 67, 67),transparent);
+    
+}
+.icon{
+    height: 25px;
+    width: 25px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.icon .img2{
+    height: 25px;
+    width: 25px;
+}
+.log-in{
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: white;
+    color: black ;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.div1{
+    height: 420px;
+    width: 1520px;
+    /* background-color: red; */
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-top: 100px; */
+    /* padding-top: 202px; */
+    /* padding-left: 177px; */
+}
+.content{
+    height: 145px;
+    width: 1175px;
+    /* background-color: blueviolet; */
+    display: flex;
+    color: white;
+    font-size: 97px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 220px;
+    /* padding-top: 100px; */
+    margin-left: 175px;
+}
+.ca-btn{
+    height: 46px;
+    width: 228px;
+    margin-top: 20px;
+    margin-left: 650px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(45deg,#fd267a, #ff6036);
+    /* background-color: #fd267a; */
+}
+.ca-btn:hover{
+    background: linear-gradient(45deg,#df3345,#f46740);
+}
+footer{
+    height: 870px;
+    width: 1533px;
+    background-color: rgb(1, 1, 8);
+    /* display: flex; */
+}
+.f-div1{
+    height: 300px;
+    width: 1380px;
+    /* background-color: grey; */
+    /* margin-top: 20px; */
+    margin-left: 77px;
+    display: flex;
+}
+.f-sub-div-1{
+    height: 300px;
+    width: 460px;
+    /* background-color:navy; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-sub-div-2{
+    height: 300px;
+    width: 460px;
+    /* background-color: darkgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-sub-div-3{
+    height: 300px;
+    width: 460px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-div{
+    height: 280px;
+    width: 440px;
+    /* background-color: crimson; */
+    border-radius: 10px;
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 3px white;
+}
+.inner-div:hover{
+    box-shadow: 0px 0px 10px white;
+}
+.div-h-i{
+    height: 40px;
+    width: 400px;
+    /* background-color: deepskyblue; */
+    margin-top: 22px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+h4{
+    height: 20px;
+    width: 100px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    /* background-color: chartreuse; */
+    color: white;
+    /*margin-left: 30px;*/
+}
+.comaz{
+    height: 80px;
+    width: 80px;
+    /* background-color: gold; */
+    margin-left: 250px;
+}
+.comaz img{
+    height: 70px;
+    width: 55px;
+    margin-bottom: 22px;
+}
+.line{
+    height: 1px;
+    width: 300px;
+    background-color: rgb(189, 186, 186);
+    margin-top: 5px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 2px white;
+}
+.inner-div p{
+    border: 2px solid black;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(180, 176, 176);
+}
+.last{
+    height: 510px;
+    width: 1380px;
+    margin-top: 20px;
+    margin-left: 77px;
+    padding-top: 35px;
+    /* background-color: #fd267a; */
+    align-items: center;
+}
+.container{
+    height: 158px;
+    width: 1340px;
+    /* background-color: aqua; */
+    /* margin-top: 50px; */
+    margin-left: 20px;
+    display: flex;
+}
+.sub-container-1{
+    height: 150px;
+    width: 273px;
+    /* background-color: blue; */
+}
+.sub-container-1 button{
+    display: block;
+}
+.label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.sc1-b1{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc1-b1:hover{
+    color: #dc1021;
+}
+.sc1-b2{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc1-b2:hover{
+    color: #dc1021;
+}
+.sc1-b3{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc1-b3:hover{
+    color: #dc1021;
+}
+.sc1-b4{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc1-b4:hover{
+    color: #dc1021;
+}
+.sub-container-2{
+    height: 150px;
+    width: 273px;
+    /* background-color: green; */
+}
+.sub-container-2 button{
+    display: block;
+}
+.sc2-b1{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc2-b1:hover{
+    color: #dc1021;
+}
+.sc2-b2{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc2-b2:hover{
+    color: #dc1021;
+}
+.sub-container-3{
+    height: 150px;
+    width: 273px;
+    /* background-color: yellow; */
+}
+.sub-container-3 label{
+    display: block;
+}
+.fa-instagram{
+    font-size: 27px;
+    /* width: 50px; */
+    color: white;
+    /* background-color: aliceblue; */
+}
+.fa-instagram:hover{
+    color: #dc1021;
+}
+.fa-tiktok{
+    font-size: 22px;
+    /* width: 50px; */
+    color: white;
+    margin-left: 7px;
+}
+.fa-tiktok:hover{
+    color: #dc1021;
+}
+.fa-youtube{
+    font-size: 22px;
+    /* width: 30px; */
+    color: white;
+   margin-left: 7px;
+}
+.fa-youtube:hover{
+    color: #dc1021;
+}
+.fa-twitter{
+    font-size: 27px;
+    /* width: 40px; */
+    /* margin-top: px; */
+    color: white;
+   margin-left: 7px;
+}
+.fa-twitter:hover{
+    color: #dc1021;
+}
+.fa-facebook-f{
+    font-size: 25px;
+    /* width: 30px; */
+    color: white;
+   margin-left: 7px;
+}
+.fa-facebook-f:hover{
+    color: #dc1021;
+}
+.sc3-b1{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc3-b1:hover{
+    color: #dc1021;
+}
+.sc3-b2{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc3-b3{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc3-b4{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc3-b5{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sub-container-4{
+    height: 150px;
+    width: 273px;
+    /* background-color: violet; */
+    display: block;
+}
+.sub-container-4 button{
+    display: block;
+}
+.sc4-b1{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc4-b1:hover{
+    color: #dc1021;
+}
+.sc4-b2{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc4-b2:hover{
+    color: #dc1021;
+}
+.sc4-b3{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc4-b3:hover{
+    color: #dc1021;
+}
+.sc4-b4{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc4-b4:hover{
+    color: #dc1021;
+}
+.sc4-b5{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.sc4-b5:hover{
+    color: #dc1021;
+}
+.line-1{
+    height: 0.5px;
+    width: 1300px;
+    margin-left: 40px;
+    background-color: white;
+    box-shadow: 0px 0px 1px white;
+    /* border: 0.1px solid white; */
+}
+.download-buttons{
+    display: flex;
+    height: 80px;
+    width: 1340px;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* background-color: #dc1021; */
+}
+.GTA{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 80px;
+    width: 150px;
+    /* background-color: aqua; */
+}
+.GTA label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.APS{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 50px;
+    width: 150px;
+    margin-top: 17px;
+    padding-left: 20px;
+    /* background-color: burlywood; */
+
+}
+.APS button{
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+.GPS{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 50px;
+    width: 160px;
+    /* background-color: blue; */
+    margin-top: 17px;
+    padding-left: 50px;
+
+}
+.GPS button{
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+#APS{
+    height: 48px;
+    width: 150px;
+}
+#GPS{
+    height: 48px;
+    width: 160px;
+}
+
+.last-div{
+    height: 191px;
+    width: 1340px;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* background-color: blue; */
+}
+.last-div .p1{
+    font-size: 13px;
+    color: rgb(222, 219, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+.last-div .p2{
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgb(222, 219, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+.line-2{
+    margin-top: 20px;
+    height: 1px;
+    width: 1340px;
+    background-color: white;
+}
+.lst-btns{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 1340px;
+    margin-top: 12px;
+    /* margin-left: 20px; */
+    /* background-color: #ff6036; */
+}
+.faq{
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.faq:hover{
+    color: #dc1021;
+}
+.st{
+    width: 80px;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.st:hover{
+    color: #dc1021;
+}
+.t{
+    /* width: 100px; */
+    margin-left: 10px;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.t:hover{
+    color: #dc1021;
+}
+.cp{
+    width: 100px;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cp:hover{
+    color: #dc1021;
+}
+.ps{
+    width: 120px;
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ps:hover{
+    color: #dc1021;
+}
+.rr{
+    color: white;
+    background-color: transparent;
+    border: 0px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 567px;
+}
+span{
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
